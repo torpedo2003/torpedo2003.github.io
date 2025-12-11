@@ -124,30 +124,60 @@
         
         <div class="bio-body">
           <p>
-            I am a first-year PhD student at the 
-            <a href="https://www.ict.ac.cn/" target="_blank">Institute of Computing Technology, Chinese Academy of Sciences</a>. 
-            I obtained my bachelor's degree in Artificial Intelligence from 
-            <a href="https://www.scu.edu.cn/" target="_blank">Sichuan University</a> in June 2025. 
-            In the early stages of my research, I was a research intern at 
-            <a href="https://github.com/Tele-AI" target="_blank">TeleAI, China Telecom</a>, focusing on developing safer and more personalized text-to-image models. 
-            During this period, I was fortunately advised by 
-            <a href="https://noyii.github.io/" target="_blank">Jinbin Bai</a> and 
-            <a href="https://openreview.net/profile?id=%7EKaidong_Yu1" target="_blank">Kaidong Yu</a>, and I received significant support from them. 
-            <!-- I'm always looking for related colaboration. If you are interested to chat with me, feel free to drop me an <a href="mailto:leiyu2648@gmail.com" target="_blank">email</a>. -->
-            <br>
+            Yu Lei (雷宇) is a first-year Ph.D. student at the 
+            <a href="https://www.ict.ac.cn/" target="_blank">Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)</a>, 
+            where he explores the intersection of generative AI, preference learning, and human-AI alignment. 
+            His research vision is to build <strong>AI systems that adapt to individual human values</strong> rather than enforcing one-size-fits-all constraints—making generative models safer, more personalized, and ethically grounded.
+          </p>
+
+          <p>
+            Before joining ICT, Yu obtained his B.Eng. in Artificial Intelligence from 
+            <a href="https://www.scu.edu.cn/" target="_blank">Sichuan University</a> (June 2025), 
+            where he began his journey in weakly supervised learning for medical imaging. 
+            As a research intern at <a href="https://github.com/Tele-AI" target="_blank">TeleAI, China Telecom</a>, 
+            he pioneered work on personalized safety alignment for text-to-image diffusion models, under the mentorship of 
+            <a href="https://noyii.github.io/" target="_blank">Dr. Jinbin Bai</a> and 
+            <a href="https://openreview.net/profile?id=%7EKaidong_Yu1" target="_blank">Dr. Kaidong Yu</a>.
+          </p>
+
+          <p style="font-style: italic; color: #555; margin-top: 12px;">
+            <em>"I believe AI should understand what humans truly want, not just what they say they want."</em>
           </p>
 
           <!-- Research Interests -->
           <div style="width: 50%; float:left">
             <h3>
               <i class="fa fa-star" aria-hidden="true"></i>
-              <strong>Interests</strong>
+              <strong>Research Interests</strong>
             </h3>
             <ul>
-              <li><b>Controlable text-to-image models</b></li>
-              <a href="https://m-e-agi-lab.github.io/PSAlign/" target="_blank">[PSA]</a>
+              <li><b>Personalized & Safe AI Generation</b></li>
+              <!-- <ul style="margin-left: 20px; margin-top: 5px;">
+                <li>User-specific safety alignment for diffusion models [<a href="https://m-e-agi-lab.github.io/PSAlign/" target="_blank">PSA</a>]</li>
+                <li>Personalized content moderation and preference learning</li>
+              </ul> -->
+              
+              <li style="margin-top: 10px;"><b>Preference Optimization for Generative Models</b></li>
+              <!-- <ul style="margin-left: 20px; margin-top: 5px;">
+                <li>Unpaired scalar feedback alignment [<a href="https://openreview.net/forum?id=6rwl7O9KMC" target="_blank">UPO</a>]</li>
+                <li>Alternatives to paired preference comparisons (DPO)</li>
+                <li>Both diffusion and MaskGIT paradigms</li>
+              </ul> -->
+              
+              <li style="margin-top: 10px;"><b>World Models & Interactive Generation</b></li>
+              <!-- <ul style="margin-left: 20px; margin-top: 5px;">
+                <li>From masked models to memory-augmented systems [<a href="https://arxiv.org/abs/2510.20668" target="_blank">Survey</a>]</li>
+                <li>Action-perception loops for autonomous agents</li>
+              </ul> -->
+
+              <li style="margin-top: 10px; color: #6b7280;">
+                <b>Medical Image Segmentation (Previous)</b>
+              </li>
+
+
             </ul>
           </div>
+
 
           <!-- Education -->
           <div style="width: 50%; float: right;">
@@ -255,10 +285,10 @@
         </h1>
 
         <div class="pub-list">
-          <!-- Publication Item -->
+           <!-- Publication 1: PSA -->
           <div class="pub" data-selected="true">
             <div class="pub-left">
-              <img class="intro-img frame" src="images/pub/pub_psa.png" alt="PSAlign">
+              <img class="intro-img frame" src="images/pub/psa.png" alt="PSAlign">
             </div>
             
             <div class="pub-right">
@@ -273,7 +303,7 @@
               </div>
               
               <div class="publish">
-                <span class="place">Arxiv 2025</span>
+                <span class="place">TMLR 2025 (Under Review)</span>
               </div>
               
               <div class="tags">
@@ -283,10 +313,92 @@
               </div>
             </div>
           </div>
+          <!-- Publication 2: UPO -->
+          <div class="pub" data-selected="true">
+            <div class="pub-left">
+              <img class="intro-img frame" src="images/pub/upo.png" alt="UPO">
+            </div>
+            
+            <div class="pub-right">
+              <div class="title">
+                Unpaired Preference Optimization: Aligning Visual Generative Models with Scalar Feedback
+              </div>
+              
+              <div class="authors">
+                <font style="font-size: 11pt;">
+                  Jinbin Bai, Aosong Feng, <b>Yu Lei</b>, Zhuoran Zhao, Kaidong Yu
+                </font>
+              </div>
+              
+              <div class="publish">
+                <span class="place">CVPR 2026 (Under Review)</span>
+              </div>
+              
+              <div class="tags">
+                [<a class="tag" href="https://openreview.net/forum?id=6rwl7O9KMC" target="_blank">Paper</a>]
+              </div>
+            </div>
+          </div>
+
+          <!-- Publication 3: World Models Survey -->
+          <div class="pub" data-selected="false">
+            <div class="pub-left">
+              <img class="intro-img frame" src="images/pub/worldmodel.png" alt="World Models">
+            </div>
+            
+            <div class="pub-right">
+              <div class="title">
+                From Masks to Worlds: A Hitchhiker's Guide to World Models
+              </div>
+              
+              <div class="authors">
+                <font style="font-size: 11pt;">
+                  Jinbin Bai, <b>Yu Lei</b>, Hecong Wu, Yuchen Zhu, Shufan Li, Yi Xin, Xiangtai Li, Molei Tao, Aditya Grover, Ming-Hsuan Yang
+                </font>
+              </div>
+              
+              <div class="publish">
+                <span class="place">Arxiv 2025</span>
+              </div>
+              
+              <div class="tags">
+                [<a class="tag" href="https://arxiv.org/abs/2510.20668" target="_blank">Paper</a>]
+                [<a class="tag" href="https://github.com/M-E-AGI-Lab/Awesome-World-Models" target="_blank">Github</a>]
+              </div>
+            </div>
+          </div>
+          <!-- Publication 4: PCLMix -->
+          <div class="pub" data-selected="true">
+            <div class="pub-left">
+              <img class="intro-img frame" src="images/pub/pclmix.jpg" alt="PCLMix">
+            </div>
+            
+            <div class="pub-right">
+              <div class="title">
+                PCLMix: Weakly Supervised Medical Image Segmentation via Pixel-Level Contrastive Learning and Dynamic Mix Augmentation
+              </div>
+              
+              <div class="authors">
+                <font style="font-size: 11pt;">
+                  <b>Yu Lei</b>, Haolun Luo, Lituan Wang, Zhenwei Zhang, Lei Zhang
+                </font>
+              </div>
+              
+              <div class="publish">
+                <span class="place"> ICIC 2024</span>
+              </div>
+              
+              <div class="tags">
+                [<a class="tag" href="https://link.springer.com/chapter/10.1007/978-981-97-5597-4_6" target="_blank">Paper</a>]
+                [<a class="tag" href="https://github.com/torpedo2003/PCLMix" target="_blank">Code</a>]
+              </div>
+            </div>
+          </div>
+            
         </div>
       </div>
 
-      <!-- Projects/Github Section - 使用统一的section-container类 -->
+      <!-- Projects/Github Section -->
       <div id="codebase" class="section-container bio">
         <h1 class="md-heading text-left">
           <i class="fa fa-code" aria-hidden="true"></i>
@@ -295,7 +407,7 @@
         
         <div class="bio-body">
           <div class="card-container">
-            <!-- GitHub Repository Card -->
+            <!-- Project 1: PSAlign -->
             <div class="github-card">
               <div>
                 <a class="repo-link" href="https://github.com/M-E-AGI-Lab/PSAlign" target="_blank">
@@ -316,14 +428,80 @@
                   <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
                     <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
                   </svg>
-                  Star &nbsp; <span id="star-count">–</span>
+                  Star &nbsp; <span id="star-count-psalign">–</span>
                 </a>
                 
                 <a href="https://github.com/M-E-AGI-Lab/PSAlign/network/members" target="_blank">
                   <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 0V7a1.51 1.51 0 0 0 .82 1.34L8 9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
                   </svg>
-                  Fork &nbsp; <span id="fork-count">–</span>
+                  Fork &nbsp; <span id="fork-count-psalign">–</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 2: PCLMix -->
+            <div class="github-card">
+              <div>
+                <a class="repo-link" href="https://github.com/torpedo2003/PCLMix" target="_blank">
+                  torpedo2003/<strong>PCLMix</strong>
+                </a>
+                <span class="label">Publication</span>
+              </div>
+              
+              <div class="description">
+                PCLMix: Weakly supervised medical image segmentation via pixel-level contrastive learning and dynamic mix augmentation (ICIC 2024).
+              </div>
+              
+              <div class="meta">
+                <div class="dot"></div>
+                <div>Python</div>
+                
+                <a href="https://github.com/torpedo2003/PCLMix/stargazers" target="_blank">
+                  <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+                  </svg>
+                  Star &nbsp; <span id="star-count-pclmix">–</span>
+                </a>
+                
+                <a href="https://github.com/torpedo2003/PCLMix/network/members" target="_blank">
+                  <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 0V7a1.51 1.51 0 0 0 .82 1.34L8 9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
+                  </svg>
+                  Fork &nbsp; <span id="fork-count-pclmix">–</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Project 3: Awesome-World-Models -->
+            <div class="github-card">
+              <div>
+                <a class="repo-link" href="https://github.com/M-E-AGI-Lab/Awesome-World-Models" target="_blank">
+                  M-E-AGI-Lab/<strong>Awesome-World-Models</strong>
+                </a>
+                <span class="label">Publication</span>
+              </div>
+              
+              <div class="description">
+                Awesome World Models: A Hitchhiker's Guide.
+              </div>
+              
+              <div class="meta">
+                <div class="dot"></div>
+                <div>Markdown</div>
+                
+                <a href="https://github.com/M-E-AGI-Lab/Awesome-World-Models/stargazers" target="_blank">
+                  <svg fill="currentColor" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2 115.9 353.1c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
+                  </svg>
+                  Star &nbsp; <span id="star-count-worldmodels">–</span>
+                </a>
+                
+                <a href="https://github.com/M-E-AGI-Lab/Awesome-World-Models/network/members" target="_blank">
+                  <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 0V7a1.51 1.51 0 0 0 .82 1.34L8 9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
+                  </svg>
+                  Fork &nbsp; <span id="fork-count-worldmodels">–</span>
                 </a>
               </div>
             </div>
@@ -348,7 +526,7 @@
       </div>
 
       <!-- Academic Services Section - 使用统一的section-container类 -->
-      <div id="academicservices" class="section-container bio">
+      <!-- <div id="academicservices" class="section-container bio">
         <h1 class="md-heading text-left">
           <i class="fa fa-users" aria-hidden="true"></i>
           Academic Services
@@ -362,7 +540,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Visitor Map -->
       <div style="display: flex; justify-content: center; margin: 20px 0;">
@@ -507,7 +685,9 @@
 
     // GitHub Stats Loading
     const repos = [
-      { owner: "M-E-AGI-Lab", repo: "PSAlign", starId: "star-count", forkId: "fork-count" },
+      { owner: "M-E-AGI-Lab", repo: "PSAlign", starId: "star-count-psalign", forkId: "fork-count-psalign" },
+      { owner: "torpedo2003", repo: "PCLMix", starId: "star-count-pclmix", forkId: "fork-count-pclmix" },
+      { owner: "M-E-AGI-Lab", repo: "Awesome-World-Models", starId: "star-count-worldmodels", forkId: "fork-count-worldmodels" },
     ];
 
     async function loadGitHubStats() {
